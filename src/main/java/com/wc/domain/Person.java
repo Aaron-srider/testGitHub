@@ -2,6 +2,15 @@ package com.wc.domain;
 
 public class Person {
     private String name;
+    private int age;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     public String getName() {
         return name;
@@ -14,4 +23,8 @@ public class Person {
     public static void main(String[] args) {
         System.out.println("test");
     }
+
+
+
+
 }
